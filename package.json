@@ -1,0 +1,12 @@
+{
+  "name": "ai-text-to-video",
+  "version": "1.0.0",
+  "description": "AI Text to Video Generator",
+  "main": "secure_saas_backend_server.js",
+  "scripts": {
+    "start": "node secure_saas_backend_server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
