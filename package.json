@@ -1,19 +1,26 @@
 {
   "name": "ai-short-video-studio",
   "version": "1.0.0",
-  "description": "AI Text to Short Video Generator with auto-emojis",
+  "description": "AI Text to Short Video Generator Pro",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
+  "keywords": [
+    "ai",
+    "video-generator",
+    "canvas",
+    "express"
+  ],
+  "author": "Sachin",
+  "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2"
   },
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "keywords": ["ai", "video-generator", "express", "nodejs"],
-  "author": "Sachin",
-  "license": "ISC"
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
